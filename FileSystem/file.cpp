@@ -3,6 +3,8 @@
 using namespace std;
 
 //file systrm beta 1.1
+//author: Liu Zhuo
+//email: caesiumlz96@gmail.com
 
 struct fileNode {
     string name;
