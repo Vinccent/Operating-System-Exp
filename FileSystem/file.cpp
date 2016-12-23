@@ -213,8 +213,9 @@ void detail_ls_handler() {
 }
 
 void ls_handler(string ls_cmd) {
-    if (ls_cmd != "-a" || ls_cmd != "-l") {
+    if (ls_cmd != "-a" && ls_cmd != "-l") {
         normal_ls_handler(1);
+        return;
     }
     //ls hiding dirs and files;
     if (ls_cmd == "-a") {
