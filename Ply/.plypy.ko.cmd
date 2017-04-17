@@ -1,1 +1,0 @@
-cmd_/home/hobochen/caesium/ply/plypy.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/hobochen/caesium/ply/plypy.ko /home/hobochen/caesium/ply/plypy.o /home/hobochen/caesium/ply/plypy.mod.o
